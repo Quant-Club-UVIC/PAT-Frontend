@@ -36,14 +36,14 @@ header a {
     margin-left: 0.5rem;
 }
 .header-image {
-    display: block;
+    display: flex;
     margin-left: auto;
     margin-right: auto;
-    height: 700;
-    width: 80%;
+    height: auto;
+    max-width: 100%;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
-    opacity: 70%;
+    opacity: 0.6;
 }
 
 @media (min-width: 1024px) {
@@ -62,7 +62,7 @@ header a {
 .sidebar {
     background: #f7f2fa;
     border-radius: 1rem;
-    padding: 0.5rem;
+    padding: 2rem 1rem;
     height: 100vh;
     width: fit-content;
     display: flex;
@@ -72,14 +72,15 @@ header a {
     display: flex; 
     flex-direction: column;
     align-items: center;
-    gap: 3rem;
+    gap: 2rem;
 }
 
 .sidebar nav a {
-    display: flex;
-    justify-content: center;
+    display: block;
+    text-align: center;
     text-decoration: none; 
     font-weight: 600;
+    font-size: 1.4rem;
     color: rgba(0, 0, 0, 0.66)
 }
 
@@ -109,10 +110,11 @@ header a {
     margin: 0 auto;
 }
 #about-us h2 {
-    font-size: 2rem;
+    font-size: 2.6rem;
+    margin-bottom:auto
 }
 .about-intro {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #222222ea;
 }
@@ -130,14 +132,14 @@ header a {
 }
 
 .about-image {
+    display: block;
     width: 80%;
-    max-width: 700px;
     border-radius: 10px;
     margin-top: 1.5rem;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.308);
-    display: block;
     margin-left: auto;
     margin-right: auto;
+    
 }
 #model-description {
     display: flex;
@@ -150,7 +152,45 @@ header a {
     margin: 0 auto;
 }
 #model-description h2 {
-    font-size: 2rem;
+    font-size: 2.6rem;
+}
+.model-description1-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    height: auto;
+    max-width: 130%;
+    transform: translateX(-15%);
+}
+.model-description2-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 130%;
+    transform: translateX(-15%);
+}
+.model-description3-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    max-width: 130%;
+    transform: translateX(-15%);
+}
+#people {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+#people h2 {
+    font-size: 2.6rem;
 }
 
 
