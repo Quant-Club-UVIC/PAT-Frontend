@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <main class="content">
+            <header>
+                <h1>Portfolio Management</h1>
+            </header>
+            <section aria-label = "Your portfolios">
+                <ul class = "card-grid">
+                    <li class ="card">
+                        <a href = "#">
+                            <h2>Portfolio 1</h2>
+                            <p>Updated today</p>
+                        </a>
+                    </li>
+
+                    <li class ="card">
+                        <a href ="#">
+                            <h2>Portfolio 2</h2>
+                            <p>Updated yesterday</p>
+                        </a>
+                    </li>
+
+                    <li class ="card">
+                        <a href ="#">
+                            <h2>Portfolio 3</h2>
+                            <p>Updated 2 days ago</p>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+
+        <button class ="fab" 
+        id = "fab"
+        aria-label ="Create or edit portfolio"
+        aria-haspopup ="menu"
+        aria-expanded ="false"
+        aria-controls ="fab-menu"
+        >✎</button>
+
+        <div id = "fab-menu" class = "fab-menu" role ="menu" hidden>
+            <button role ="menuitem">Create new</button>
+            <button role = "menuitem">Delete</button>
+            <button role = "menuitem">Compare</button>
+        </div>
+    </body>
+</html>
