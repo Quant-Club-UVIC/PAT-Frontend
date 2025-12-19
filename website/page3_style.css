@@ -1,0 +1,244 @@
+body{
+    background-color: #f7f6fb;
+}
+h1 {
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+h2 {
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+h3{
+    color: black;
+    font-family: 'Inter', sans-serif;
+}
+#tools{
+    color: white;
+    font-family: "Inter", sans-serif;
+    transform: translateY(-22px);
+    font-size: 20px;
+}
+
+#Portfolio{
+    margin-left: 140px;
+    transform: translateY(20px);
+    position: relative;
+    
+}
+
+#Holdings{
+    margin-top: 50px;
+    margin-left: 50px;
+    transform: translateY(40px);
+    position: relative;
+}
+
+#Shares{
+    margin-left: 200px;
+    transform: translateY(0px);
+    position: relative;
+}
+
+#Weight{
+    margin-left: 350px;
+    transform: translateY(-40px);
+    position: relative;
+}
+
+#Metrics{
+    margin-left: 200px;
+    transform: translateY(240px);
+    position: relative;
+}
+
+#Allocation{
+    margin-left: 850px;
+    transform: translateY(190px);
+    position: relative;
+}
+
+.my-box{
+    width: 450px;
+    height:290px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 20px;
+    transform: translateY(-200px);
+    border-radius: 10px;
+    position: relative;
+    z-index: -1;
+}
+
+.my-box2{
+    width: 1500px;
+    height: 410px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    margin-left: 175px;
+    padding: 10px;
+    border-radius: 10px;
+    transform: translateY(-200px);
+    position: relative;
+    z-index: -1;
+}
+
+.my-box3{
+    height: 290px;
+    width: 1250px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    transform: translateY(-968px);
+    border-radius: 10px;
+    margin-left: 520px;
+    position: relative;
+    z-index: -1;
+}
+
+.tool-box{
+    position: relative;
+    height: 20px;
+    width: 80px;
+    background-color: black;
+    border:2px solid black;
+    padding: 10px;
+    transform: translateY(-1378px);
+    border-radius: 10px;
+    margin-left: 400px;    
+}
+
+#Var{
+    margin-top: 60px;
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    margin-left: 25px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Return{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    margin-left: 25px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+#Sharpe{
+    font-size: 15px;
+    font-family: "Inter", sans-serif;
+    margin-left: 25px;
+    margin-top: 30px;
+    color: rgba(0, 0, 0, 0.5);
+}  
+
+#holds_1{
+    margin-top: 50px;
+    margin-left: 18px;
+}
+#holds_2{
+    margin-left: 18px;
+}
+#holds_3{
+    margin-left: 18px;
+}
+
+#shares_1{
+    margin-left: 160px;
+    transform: translateY(-238px);
+}
+#shares_2{
+    margin-left: 160px;
+    transform: translateY(-238px);
+}
+#shares_3{
+    margin-left: 160px;
+    transform: translateY(-238px);
+}
+
+#weight_1{
+    margin-left: 315px;
+    transform: translateY(-477px);
+}
+#weight_2{
+    margin-left: 315px;
+    transform: translateY(-477px);
+}
+#weight_3{
+    margin-left: 315px;
+    transform: translateY(-477px);
+}
+
+.box1{
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 60px;
+}
+
+#piechart{
+    margin-left: 900px;
+    transform: translateY(-900px);
+    height: 300px;
+    width: 300px;
+}
+.pieplaceholder{
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+    margin-left: 1100px;
+    transform: translateY(-105px);
+    font-size: 15px;
+}
+
+.piemoney{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    margin-top: 25px;
+    margin-left: 1200px;
+    transform: translateY(-321px);
+    font-size: 15px;
+}
+
+#graph{
+    height: 200px;
+    width: 1100px;
+    margin-left: 90px;
+    transform: translateY(10px);
+}
+
+.graphtext{
+    font-family: "Inter", sans-serif;
+    position: absolute;
+    transform: translateY(20px);
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 0px;
+    font-size: 15px;
+    
+}
+
+#graphtext_1{
+    margin-left: 50px;
+}
+#graphtext_2{
+    margin-left: 250px;
+}
+#graphtext_3{
+    margin-left: 450px;
+}
+#graphtext_4{
+    margin-left: 650px;
+    
+}
+#graphtext_5{
+    margin-left: 850px;
+}
+
+.moola{
+    font-family: "Inter", sans-serif;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top:10px;
+    margin-left: 20px;
+    transform: translateY(-200px);
+}

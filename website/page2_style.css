@@ -90,7 +90,6 @@ header h1 {
   padding: 8px 14px;
   cursor: pointer;
   font-size: 14px;
-  all: unset;
   font: inherit;
   color: #666;
 }
@@ -102,3 +101,4 @@ header h1 {
 .fab-menu[hidden] {
   display: none;
 } 
+  
