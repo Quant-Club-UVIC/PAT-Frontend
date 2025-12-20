@@ -1,136 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="page3_style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="fonts.googleapis.com" rel="stylesheet">
+    <link rel="stylesheet" href = "page3_style.css">
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
 </head>
+
 <body>
-    <h1 id="Portfolio">
-        Portfolio 1
-    </h1>
+    <!-- Top bar -->
+    <header class= "topbar">
+        <a class ="back" href ="page2.html" aria-label="Back">←</a>
+        <h1 class ="title">Portfolio 1</h1>
+        <button class ="tools-button" type ="button">Tools ▾</button>
+    </header>
 
-    <h3 id="Holdings">
-        Holdings
-    </h3>
-    <h3 id="Shares">
-        Shares
-    </h3>
-    <h3 id="Weight">
-        Weight %
-    </h3>
-    
-    <h2 id="Metrics">
-        Metrics
-    </h2>
-    <h2 id="Allocation">
-        Allocation
-    </h2>
+    <main class ="container">
+        <!-- Row 1 -->
+         <section class ="grid-top">
+            <!-- Holdings card -->
+             <article class="card holdings">
+                <table class="holdings-table">
+                    <thead>
+                        <tr>
+                            <th>Holdings</th>
+                            <th>Shares</th>
+                            <th>Weight %</th>
+                        </tr>
+                    </thead>
 
-    <div class="my-box">
-        <p id="holds_1" class="box1">
-            placeholder
-        </p>
-        <p id="holds_2" class="box1">
-            placeholder
-        </p>
-        <p id="holds_3" class="box1">
-            placeholder
-        </p>
+                    <tbody>
+                        <tr><td>Apple</td><td>1</td><td>25</td></tr>
+                        <tr><td>Banana</td><td>2</td><td>52</td></tr>
+                        <tr><td>Orange</td><td>3.47</td><td>23</td></tr>
+                    </tbody>
+                </table>
+             </article>
 
-        <p id="shares_1" class="box1"> 
-            placeholder
-        </p>
-        <p id="shares_2" class="box1">
-            placeholder
-        </p>
-        <p id="shares_3" class="box1">
-            placeholder
-        </p>
+             <!-- Line chart card -->
+              <article class="card chart">
+                <img src="images/cat.jpg" alt ="Portfolio performance chart">
+              </article>
 
-        <p id="weight_1" class="box1">
-            placeholder
-        </p>
-        <p id="weight_2" class="box1">
-            placeholder
-        </p>
-        <p id="weight_3" class="box1">
-            placeholder
-        </p>
-        
-    </div>
+         </section>
 
-    <div class="my-box2">
-        <p id="Var">
-            Var
-        </p>
-        <p id="Return">
-            Return
-        </p>
-        <p id="Sharpe">
-            Sharpe
-        </p>
+         <section class ="card bottom">
+            <div class="metrics">
+                <h2>Metrics</h2>
+                <ul>
+                    <li><span>Var</span> <strong>%15.00</strong></li>
+                    <li><span>Return</span> <strong>%10.00</strong></li>
+                    <li><span>Sharpe</span> <strong>1.20</strong></li>
+                </ul>
+            </div>
 
-        <p id="cat1" class="pieplaceholder">
-            Category 1
-        </p>
-        <p id="cat2" class="pieplaceholder">
-            Category 2
-        </p>
-        <p id="cat3" class="pieplaceholder">
-            Category 3
-        </p>
-        <p id="cat4" class="pieplaceholder">
-            Category 4
-        </p>
-        <p id="cat5" class="pieplaceholder">
-            Category 5
-        </p>
+            <div class="allocation">
+                <h2>Allocation</h2>
 
-        <p class="piemoney">
-            placeholder
-        </p>
-        <p class="piemoney">
-            placeholder
-        </p>
-        <p class="piemoney">
-            placeholder
-        </p>
-        <p class="piemoney">
-            placeholder
-        </p>
-        <p class="piemoney">
-            placeholder
-        </p>
-    </div>
+                <div class="allocation-content">
+                    <img src ="images/cat.jpg" alt ="Allocation pie chart" class ="pie">
 
-    <div class="my-box3">
-        <img src="cat.jpg" alt="tssotuff" id="graph">
-        <p id="graphtext_1" class="graphtext">Category 1</p>
-        <p id="graphtext_2" class="graphtext">Category 2</p>
-        <p id="graphtext_3" class="graphtext">Category 3</p>
-        <p id="graphtext_4" class="graphtext">Category 4</p>
-        <p id="graphtext_5" class="graphtext">Category 5</p>
+                    <ul class="legend">
+                        <li><span>Category 1</span> <strong>$50,000.00</strong></li>
+                        <li><span>Category 2</span> <strong>$25,000.00</strong></li>
+                        <li><span>Category 3</span> <strong>$15,000.00</strong></li>
+                        <li><span>Category 4</span> <strong>$7,000.00</strong></li>
+                        <li><span>Category 5</span> <strong>$3,000.00</strong></li>
+                    </ul>
+                </div>
+            </div>
+         </section>
 
-        <p class="moola">$100K</p>
-        <p class="moola">$80K</p>
-        <p class="moola">$60K</p>
-        <p class="moola">$40K</p>
-        <p class="moola">$20K</p>
-        <p class="moola">$0</p>
-    </div>
-
-    <div class="tool-box">
-        <p id="tools">
-            Tools
-        </p>
-    </div>
-
-    <img src="cat.jpg" alt="tssotuff" id="piechart">
+    </main>
 
 </body>
 </html>
