@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href = "page3_style.css">
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <!-- Top bar -->
+    <header class= "topbar">
+        <a class ="back" href ="page2.html" aria-label="Back">‹</a>
+        <h1 class ="title">Portfolio 1</h1>
+        <button class ="tools-button" type ="button">Tools ▾</button>
+    </header>
+
+    <main class ="container">
+        <!-- Row 1 -->
+         <section class ="grid-top">
+            <!-- Holdings card -->
+             <article class="card holdings">
+                <table class="holdings-table">
+                    <thead>
+                        <tr>
+                            <th>Holdings</th>
+                            <th>Shares</th>
+                            <th>Weight %</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr><td>Apple</td><td>1</td><td>25</td></tr>
+                        <tr><td>Banana</td><td>2</td><td>52</td></tr>
+                        <tr><td>Orange</td><td>3.47</td><td>23</td></tr>
+                    </tbody>
+                </table>
+             </article>
+
+             <!-- Line chart card -->
+              <article class="card chart">
+                <img src="images/cat.jpg" alt ="Portfolio performance chart">
+              </article>
+
+         </section>
+
+         <section class ="card bottom">
+            <div class="metrics">
+                <h2>Metrics</h2>
+                <ul>
+                    <li><span>Var</span> <strong>%15.00</strong></li>
+                    <li><span>Return</span> <strong>%10.00</strong></li>
+                    <li><span>Sharpe</span> <strong>1.20</strong></li>
+                </ul>
+            </div>
+
+            <div class="allocation">
+                <h2>Allocation</h2>
+
+                <div class="allocation-content">
+                    <img src ="images/cat.jpg" alt ="Allocation pie chart" class ="pie">
+
+                    <ul class="legend">
+                        <li><span>Category 1</span> <strong>$50,000.00</strong></li>
+                        <li><span>Category 2</span> <strong>$25,000.00</strong></li>
+                        <li><span>Category 3</span> <strong>$15,000.00</strong></li>
+                        <li><span>Category 4</span> <strong>$7,000.00</strong></li>
+                        <li><span>Category 5</span> <strong>$3,000.00</strong></li>
+                    </ul>
+                </div>
+            </div>
+         </section>
+
+    </main>
+
+</body>
+</html>

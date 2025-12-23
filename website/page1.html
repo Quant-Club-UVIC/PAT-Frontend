@@ -6,40 +6,15 @@
     </head>
     <body>
         <div class = "layout">
-            
-            <main class = "content">
-                <header>
-                    <h1>Portfolio Analysis Tool</h1>
-                    <a href="#">
-                        Try PAT 
-                        <img src = "icons/arrow.png" alt = "Arrow icon" class = "arrow-icon">
-                    </a>
-                </header>
-                
-                <section id="about-us">
-                    <h2>About Us</h2>
-                    <p>PAT is a web application that allows user to input their holdings. 
-                        The application will orchestrate the back-end to fetch real-time market data, perform calculations and display portfolio metrics - risk, sector allocations, implied growth, sentiment analysis. 
-                        The user is then given the tools to compare their current portfolios to potential ones.
-                        Users are able to securely create profiles, save, and update their portfolio holdings.
-                    </p>
-                </section>
-                <section id="model-description">
-                    <h2>Model Description</h2>
-                    <p>bla bla bla</p>
-                </section>
-                <section id="people">
-                    <h2>People</h2>
-                    <p>bla bla bla</p>
-                </section>
-            </main>
-            
+
+            <button class= "menu-toggle" 
+                            aria-controls = "site-menu" 
+                            aria-expanded = "false" 
+                            aria-label = "Open menu">
+                    ☰</button>
+
             <aside class ="sidebar">
                 <nav>
-                    <button class= "menu-toggle" 
-                    aria-controls = "site-menu" 
-                    aria-expanded = "false" 
-                    aria-label = "Open menu">☰</button>
                     <ul id = "site-menu">
                         <li><a href="#about-us">About Us</a></li>
                         <li><a href="#model-description">Model<br>Description</a></li>
@@ -47,6 +22,51 @@
                     </ul>
                 </nav>
             </aside>
+            
+            <main class = "content">
+                <header>
+                    <h1>Portfolio Analysis Tool</h1>
+                    <a href="page2.html">
+                        Try PAT 
+                        <img src= "icons/arrow.png" 
+                             alt= "Arrow icon" 
+                             class= "arrow-icon"
+                             loading="lazy">
+                    </a>
+                </header>
+                <img src="images/investment.webp" 
+                     alt ="Investment visualization" 
+                     class ="header-image">
+                <section id="about-us">
+                    <h2>Your Personalized Path to Portfolio Mastery</h2>
+                    <p class ="about-intro">PAT helps you understand and optimize your portfolio.</p>
+                    <ul>
+                        <li><strong>Real-time data:</strong> Connects to live market feeds for up-to-date analysis</li>
+                        <li><strong>Key metrics:</strong> Risk, sector allocation, implied growth, sentiment</li>
+                        <li><strong>What-if comparisons:</strong> Evaluate potential portfolios vs. your current one</li>
+                        <li><strong>Secure profiles:</strong> Save, update, and manage your holdings with confidence</li>
+                    </ul>
+                    <img src= "images/investors.jpg" 
+                         alt="Investors with porfolios visualization" 
+                         class="about-image">
+                </section>
+                <section id="model-description">
+                    <h2>Model Description</h2>
+                    <img src="images/model-description1.jpeg"
+                         alt ="Model Description 1"
+                         class="model-description-image">
+                    <img src="images/model-description2.jpeg"
+                         alt="Model Description 2"
+                         class="model-description-image">
+                    <img src="images/model-description3.jpeg"
+                         alt="Model Description 3"
+                         class="model-description-image">
+                </section>
+                <section id="people">
+                    <h2>People</h2>
+                    <p>bla bla bla</p>
+                </section>
+            </main>
 
         </div>
 
